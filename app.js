@@ -14,7 +14,7 @@ const createClient = async () => {
 
 const saveText = async () => {
   let ipfs = await createClient();
-  let result = await ipfs.add("hello world my name is nilesh gupta i learning ipfs for my current project orphanage mangament using hyperledger fabric and ipfs i love coding and playing games like counter strike counter strike gobal offensive");
+  let result = await ipfs.add("hello world);
   console.log(result);
 };
 
